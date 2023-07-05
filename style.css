@@ -1,0 +1,166 @@
+
+/* Reset CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 1200px;
+  margin: 0px auto;
+}
+
+/* Header CSS */
+#header_Halong{
+  position: relative;
+}
+
+/* NAV CSS */
+.menu nav  {
+  position: absolute;
+  top: 5px;
+  padding: 10 0 0 10;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  width: 300px;
+  float: left;
+}
+
+.hover {
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hover a:hover {
+  color: palevioletred;
+  font-weight: bold;
+}
+
+/* Main CSS */
+main .main_map{
+  float: left;
+  clear: both;
+  margin: 200px auto;
+}
+main .main_map h3{
+  font-weight: bold;
+  color: tomato;
+  margin: auto;     
+}
+
+main .map{
+color:rgb(124, 103, 103);
+}
+
+main #main_menu {
+  background-color: rgba(212, 209, 209, 0.533);
+  /* margin: 0px auto;
+  padding: 0px 30px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+main h2{
+text-align: center;
+margin: 10px auto;
+}
+
+main .main_menu_list {
+  width: 370px;
+  /* height: 650px; */
+  margin: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    color: rgba(88, 88, 88, 0.6);
+}
+
+main .main_menu_list img{
+  width: 370px;
+  transition: transform .2s;
+}
+
+main .main_menu_list img:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
+}
+
+.thanhpho{
+  padding: 0 20px;
+  text-align: left;
+}
+  /*Beautypicture  */
+
+.Picture_container {
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    color:  rgba(156, 152, 152, 0.533);
+    position: relative;
+    width: 400px;    
+}
+
+* {box-sizing: border-box;}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+.overlay {
+  position:absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.Picture_container:hover .overlay {
+  opacity: 1;
+}
+/* Footer CSS */
+footer{
+    background-color: whitesmoke;
+}
+
+footer #fff{
+    float: left;
+    margin: 30px;
+    
+}
+
+footer .ggg{
+    float: right;
+    margin: 50px;
+    font-weight: bold;
+}
+
+footer .hhh{
+    text-align: center;
+    clear: both;
+    
+    
+}
